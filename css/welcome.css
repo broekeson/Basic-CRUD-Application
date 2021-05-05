@@ -1,0 +1,23 @@
+h2{
+  font-family: poppins;
+  margin-left: 11px;
+  margin-bottom: 0px;
+}
+
+h5{
+  font-family: poppins;
+  margin-left: 11px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p{
+  font-family: poppins;
+  margin-left: 11px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+a:link{
+  text-decoration: none;
+}
