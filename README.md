@@ -29,20 +29,4 @@ From your knowledge of MySQL Database create a basic authentication page that do
 
 NOTE: Make use of MySQL database. We're more concerned about functionalities and not design so concentrate more on functionalities.
 
- 
-
-Submission
-
- 
-
-To submit this task;
-
-- create a repository on your GitHub profile
-
-- push your work to this repository
-
-- submit the link to your repo
-
- 
-
-You will be graded on these features. You get 4 marks when you complete the first task (Authentication) and 6 marks on completing the second task (Dashboard).
+Developed by Ekene
