@@ -1,6 +1,10 @@
 <?php
   include "update.php";
 
+  if(!isset($_SESSION['user_id'])){
+    header("location:./logout.php");
+  }
+
   $_SESSION['user_id'];
   $_SESSION['course_id']  = $_GET['id'];
 
@@ -27,7 +31,7 @@
   </div>
   <div class="main">
     <div class="nav-bar"> 
-      <h5>Hello </h5>
+      <h5>Hello <?php echo  $_SESSION['first_name']  ?></h5>
     </div>
     <div class="content">
       <form id="contact" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">

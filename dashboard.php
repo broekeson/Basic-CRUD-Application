@@ -1,6 +1,10 @@
 <?php
-  
   session_start();
+  
+  if(!isset($_SESSION['user_id'])){
+    header("location:./logout.php");
+  }
+
   require_once  "db_connect.php";
   $user = $_SESSION['user_id'];
 
