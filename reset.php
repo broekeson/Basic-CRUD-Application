@@ -34,6 +34,8 @@
       $error_confirmP = "Passwords do not match";
     }
     }
+
+    if (empty($error_confirmP) && empty($error_password)) {
     $sql  = "SELECT * FROM user_info WHERE Username = '$username';";
       $get_user = mysqli_query($conn, $sql);
 
@@ -46,6 +48,7 @@
       }else {
         $error_username = "Username does not exist";
       }
+    }
   }
 
 
