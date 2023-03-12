@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "user";
+$servername = "mysql";
+$username = "clouduser";
+$password = "cloud";
+$dbname = "altschool";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
