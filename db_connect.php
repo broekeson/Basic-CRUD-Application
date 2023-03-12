@@ -1,8 +1,8 @@
 <?php
 
 $servername = "mysql";
-$username = "clouduser";
-$password = "cloud";
+$username = "root";
+$password = "root";
 $dbname = "altschool";
 
 // Create connection
